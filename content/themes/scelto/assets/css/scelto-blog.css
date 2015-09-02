@@ -152,6 +152,39 @@
     line-height: 1.75em;
 }
 
+.post-meta {
+    display: block;
+    margin: 1.75rem 0 0 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    color: #9EABB3;
+}
+
+.author-thumb {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 9px;
+    border-radius: 100%;
+}
+
+.post-meta a {
+    color: #9EABB3;
+    text-decoration: none;
+}
+
+.post-meta a:hover {
+    text-decoration: underline;
+}
+
+.user-meta {
+    position: relative;
+    padding: 0.3rem 40px 0 100px;
+    min-height: 77px;
+}
+
+
 /* list of author links - location / url */
 .author-meta {
     padding: 0;
