@@ -255,10 +255,31 @@ h6 {
 
 
 /* Customize the text color and shadow color and to optimize text legibility. */
-
 .tagline {
     text-shadow: 0 0 10px #000;
     color: #fff;
+    z-index: 1030;
+    position: absolute;
+    top: 105%;
+    left: 68%;
+    transition: all 0.5s ease;
+}
+@media(max-width:767px) {
+    .scelto-logo img {
+        height: 50px;
+    }
+
+    .scelto-logo div {
+        height: 50px;
+    }
+
+    .scelto-logo {
+        margin-top: 0;
+    }
+    .tagline {
+        top: 30%;
+        left: 65%;
+    }
 }
 
 .img-center {

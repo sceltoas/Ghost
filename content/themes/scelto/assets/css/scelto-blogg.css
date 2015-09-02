@@ -383,3 +383,13 @@
 .icon-menu:before {
     content: "\f609";
 }
+
+.tagline.shrink {
+    margin-top: 0;
+    top: 60%;
+    left: 75%;
+}
+
+.tagline.shrinked {
+    margin-top: 0;
+}
